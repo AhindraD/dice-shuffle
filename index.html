@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Dice - Ahindra</title>
+</head>
+
+<body onload="reset()">
+  <div class="container">
+    <div class="dices">
+      <div class="dice dice1">
+        <!-- <p class="roll roll1"> -->
+        <div class="five-face">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+        <!-- </div> -->
+      </div>
+      <div class="dice dice2">
+        <!-- <div class="roll roll2"> -->
+        <div class="four-face">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+        <!-- </div> -->
+      </div>
+    </div>
+    <button onclick="reset()"> 🎲 Shuffle 🎲 </button>
+    <span class="total">Total : 9< /span>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+
+</html>

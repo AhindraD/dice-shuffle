@@ -130,6 +130,7 @@ button:active {
   background-color: rgb(66, 0, 0);
 }
 
+
 /* mobile */
 @media screen and (max-width:480px) {
   .dices {

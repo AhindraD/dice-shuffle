@@ -13,6 +13,7 @@ function reset() {
 }
 
 
+
 let facesMap = {
     1: `<div class="one-face">
     <span class="dot"></span>
